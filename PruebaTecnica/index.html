@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+<h1>Contacta con nosotros</h1>
+<form id="formulario">
+    <div class="inputs">
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre *">
+    <input type="email" id="email" name="email" placeholder="Email *">
+    <input type="text" id="telefono" name="telefono" placeholder="Telefono">
+    <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+    <textarea id="comentarios" name="comentarios" rows="8" placeholder="Comentarios *"></textarea>
+    <div class="privacidad">
+    <input type="checkbox" id="privacidad" name="privacidad" value="checkbox">
+    <label for="privacidad">He leído y acepto la <a href="">política de privacidad</a></label>
+    </div>    
+    </div>
+    <input type="submit" value="Enviar">
+</form>
+
+<script src="ajax.js"></script>
+
+</body>
+</html>
